@@ -21,7 +21,7 @@ This project is being built incrementally with clear commit history.
 - **Frontend:** HTML, CSS, JavaScript
 - **Libraries:** GSAP, TensorFlow.js, Leaflet, SASS
 
-## 📥 Installation
+##  Installation
 
 See [INSTALLATION.md](INSTALLATION.md) for setup instructions.
 
