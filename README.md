@@ -1,12 +1,12 @@
-# 🌐 ConnectHub
+#  ConnectHub
 
 A full-stack social media platform built with PHP, MySQL & JavaScript.
 
-## 🚧 Project Status: In Development
+##  Project Status: In Development
 
 This project is being built incrementally with clear commit history.
 
-## ✨ Planned Features
+##  Planned Features
 
 - [x] Project setup & database schema
 - [ ] Authentication system
@@ -15,7 +15,7 @@ This project is being built incrementally with clear commit history.
 - [ ] Real-time interactions
 - [ ] Advanced features
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Backend:** PHP, MySQL
 - **Frontend:** HTML, CSS, JavaScript
