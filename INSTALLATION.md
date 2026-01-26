@@ -1,4 +1,4 @@
-# 🚀 Installation Guide
+#  Installation Guide
 
 ## Prerequisites
 - XAMPP (Apache + MySQL + PHP 7.4+)
