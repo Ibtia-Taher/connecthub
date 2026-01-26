@@ -1,0 +1,32 @@
+# Sensitive Configuration
+config/database.php
+config/debug.php
+
+# User Uploads
+assets/images/uploads/*
+!assets/images/uploads/.gitkeep
+
+# Logs & Cache
+logs/*.log
+logs/*.txt
+cache/*
+!cache/.gitkeep
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Compiled Files
+assets/css/main.css
+assets/css/main.css.map
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
