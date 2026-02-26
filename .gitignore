@@ -1,6 +1,7 @@
 # Sensitive Configuration
 config/database.php
 config/debug.php
+config/config.php
 
 # User Uploads
 assets/images/uploads/*
@@ -30,3 +31,10 @@ Desktop.ini
 .vscode/
 .idea/
 *.sublime-*
+
+/vendor/
+node_modules/
+.env
+.env.*
+*.log
+storage/logs/
