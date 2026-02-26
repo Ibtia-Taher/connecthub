@@ -9,11 +9,11 @@ This project is being built incrementally with clear commit history.
 ##  Planned Features
 
 - [x] Project setup & database schema
-- [ ] Authentication system
-- [ ] User profiles
-- [ ] Posts system
-- [ ] Real-time interactions
-- [ ] Advanced features
+- [x] Authentication system
+- [x] User profiles
+- [x] Posts system
+- [x] Real-time interactions
+- [x] Advanced features
 
 ##  Tech Stack
 
