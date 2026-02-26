@@ -1,0 +1,91 @@
+// _layout.scss
+// Layout & structure
+
+// Navbar
+.navbar {
+  @include gradient-bg;
+  @include flex-gap($spacing-lg);
+  justify-content: space-between;
+  align-items: center;
+  padding: $spacing-md $spacing-xl;
+  color: white;
+  box-shadow: $shadow-md;
+  position: sticky;
+  top: 0;
+  z-index: $z-navbar;
+  
+  &-brand {
+    font-size: $font-size-h2;
+    font-weight: $font-weight-bold;
+  }
+  
+  &-menu {
+    @include flex-gap($spacing-lg);
+    align-items: center;
+    
+    a {
+      color: white;
+      padding: 8px 16px;
+      border-radius: $radius-sm;
+      transition: background $transition-normal;
+      @include flex-gap($spacing-sm);
+      align-items: center;
+      
+      &:hover {
+        background: rgba(255, 255, 255, 0.2);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// Container
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 $spacing-lg;
+}
+
+// Feed container
+.feed-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: $spacing-lg;
+  
+  @include respond-to(mobile) {
+    padding: $spacing-sm;
+  }
+}
+
+// Profile container
+.profile-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: $spacing-lg;
+}
+
+// Grid system
+.grid {
+  display: grid;
+  gap: $spacing-lg;
+  
+  &-2 {
+    grid-template-columns: repeat(2, 1fr);
+    
+    @include respond-to(tablet) {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  &-3 {
+    grid-template-columns: repeat(3, 1fr);
+    
+    @include respond-to(tablet) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    @include respond-to(mobile) {
+      grid-template-columns: 1fr;
+    }
+  }
+}

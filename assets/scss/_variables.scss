@@ -1,0 +1,83 @@
+// _variables.scss
+// Design system variables
+
+// Colors - Primary
+$primary-gradient-start: #667eea;
+$primary-gradient-end: #764ba2;
+$primary-color: #667eea;
+$primary-dark: #5568d3;
+$primary-light: #7c90ff;
+
+// Colors - Semantic
+$success-color: #10b981;
+$error-color: #ef4444;
+$warning-color: #f59e0b;
+$info-color: #3b82f6;
+
+// Colors - Neutral
+$text-primary: #333;
+$text-secondary: #666;
+$text-muted: #999;
+$border-color: #e0e0e0;
+$background-light: #f9fafb;
+$background-white: #ffffff;
+
+// Colors - Social Actions
+$like-color: $primary-color;
+$dislike-color: $error-color;
+$comment-color: #6b7280;
+
+// Colors - Rating
+$star-filled: #fbbf24;
+$star-empty: #d1d5db;
+
+// Typography
+$font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+$font-size-base: 14px;
+$font-size-large: 16px;
+$font-size-small: 12px;
+$font-size-h1: 32px;
+$font-size-h2: 24px;
+$font-size-h3: 20px;
+
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// Spacing
+$spacing-xs: 5px;
+$spacing-sm: 10px;
+$spacing-md: 15px;
+$spacing-lg: 20px;
+$spacing-xl: 30px;
+$spacing-xxl: 40px;
+
+// Border Radius
+$radius-sm: 6px;
+$radius-md: 8px;
+$radius-lg: 12px;
+$radius-xl: 20px;
+$radius-circle: 50%;
+
+// Shadows
+$shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+$shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+$shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.2);
+
+// Transitions
+$transition-fast: 0.2s;
+$transition-normal: 0.3s;
+$transition-slow: 0.5s;
+
+// Breakpoints
+$breakpoint-mobile: 480px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+$breakpoint-wide: 1200px;
+
+// Z-index
+$z-dropdown: 10;
+$z-modal: 100;
+$z-navbar: 1000;
+$z-tooltip: 10000;

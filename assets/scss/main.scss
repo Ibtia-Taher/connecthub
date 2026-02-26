@@ -1,0 +1,18 @@
+// main.scss
+// Main SASS entry point - imports all partials
+
+// 1. Variables & functions
+@import 'variables';
+@import 'mixins';
+
+// 2. Base styles
+@import 'base';
+
+// 3. Layout
+@import 'layout';
+
+// 4. Components
+@import 'components';
+
+// 5. Page-specific styles (we'll keep these separate for now)
+// Feed and profile CSS will be compiled separately

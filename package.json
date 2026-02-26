@@ -1,0 +1,9 @@
+{
+  "name": "connecthub",
+  "version": "1.0.0",
+  "scripts": {
+    "sass": "sass assets/scss/main.scss assets/css/main.css",
+    "sass:watch": "sass --watch assets/scss:assets/css",
+    "sass:build": "sass assets/scss:assets/css --style compressed"
+  }
+}
